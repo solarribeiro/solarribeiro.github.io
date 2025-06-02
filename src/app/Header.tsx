@@ -14,8 +14,8 @@ export default function Header() {
         <header className="bg-white sticky top-0 z-50 shadow">
             <div className="container mx-auto flex items-center justify-between p-4">
                 <div className="flex items-center space-x-2">
-                    <a href="index.html">
-                        <Image src="./logo_transparent_cropped.png" alt="Logo" className="w-auto max-h-12"></Image>
+                    <a href="/">
+                        <Image src="/logo_transparent_cropped.png" alt="Logo" width={128} height={128}></Image>
                     </a>
                 </div>
 
@@ -29,10 +29,10 @@ export default function Header() {
                     className="hidden md:flex flex-col md:flex-row md:items-center md:space-x-6 absolute md:static 
             bg-white w-full left-0 top-full shadow-md md:shadow-none md:w-auto px-4 md:px-0 pt-4 md:pt-0 z-40">
                     <Link href="/" className="block py-2 md:py-0 hover:text-slate-400">Página Inicial</Link>
-                    <Link href="/about_us" className="block py-2 md:py-0 hover:text-slate-400">Sobre Nós</Link>
-                    <Link href="/services" className="block py-2 md:py-0 hover:text-slate-400">Serviços</Link>
+                    <Link href="/sobre-nos" className="block py-2 md:py-0 hover:text-slate-400">Sobre Nós</Link>
+                    <Link href="/servicos" className="block py-2 md:py-0 hover:text-slate-400">Serviços</Link>
                     <Link href="/portfolio" className="block py-2 md:py-0 hover:text-slate-400">Portfolio</Link>
-                    <Link href="/contact" className="block py-2 md:py-0 hover:text-slate-400">Contato</Link>
+                    <Link href="/contato" className="block py-2 md:py-0 hover:text-slate-400">Contato</Link>
                 </nav>
 
                 <a href="https://wa.me/5511982658073?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
