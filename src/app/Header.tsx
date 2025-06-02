@@ -14,9 +14,9 @@ export default function Header() {
         <header className="bg-white sticky top-0 z-50 shadow">
             <div className="container mx-auto flex items-center justify-between p-4">
                 <div className="flex items-center space-x-2">
-                    <a href="/">
+                    <Link href="/">
                         <Image src="/logo_transparent_cropped.png" alt="Logo" width={128} height={128}></Image>
-                    </a>
+                    </Link>
                 </div>
 
                 <button id="menu-toggle" className="md:hidden focus:outline-none" onClick={() => toggleMenu()}>
@@ -35,11 +35,11 @@ export default function Header() {
                     <Link href="/contato" className="block py-2 md:py-0 hover:text-slate-400">Contato</Link>
                 </nav>
 
-                <a href="https://wa.me/5511982658073?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
+                <Link href="https://wa.me/5511982658073?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
                     className="hidden md:inline-block bg-[#25374f] text-white px-4 py-2 rounded-full hover:bg-[#2e4665]" target="_blank"
                     rel="noopener noreferrer">
                     Pedir um Orçamento
-                </a>
+                </Link>
             </div>
         </header>
     );

@@ -2,6 +2,7 @@ import WhatsappIcon from "./WhatsappIcon";
 import Footer from "./Footer";
 import Header from "./Header";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
           <h2 className="text-4xl font-extralight mb-4">Oferecemos As Melhores Soluções em <br></br><b className="font-bold">Aquecimento Solar</b>, <b className="font-bold">Banho</b> e <b className="font-bold">Piscina</b></h2>
-          <a href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-[#e5930d] hover:bg-[#dd7e0e] px-6 py-3 text-white font-bold rounded-full">Entre em Contato</a>
+          <Link href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-[#e5930d] hover:bg-[#dd7e0e] px-6 py-3 text-white font-bold rounded-full">Entre em Contato</Link>
         </div>
       </section>
 
@@ -53,7 +54,7 @@ export default function Home() {
             <h1 className="font-semibold mb-2 text-4xl">Energia Inteligente</h1>
             <p className="text-2xl text-gray-400 mb-6 md:max-w-96">Transforme a luz do sol em conforto e economia com nosso sistema de aquecimento solar,
               ideal para residências e empresas.</p>
-            <a href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-white transition-all px-6 py-3 text-white font-bold rounded-full md:float-right md:mr-4">Saiba Mais</a>
+            <Link href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-white transition-all px-6 py-3 text-white font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
           </div>
           <div className="p-4 order-last md:order-first">
             <Image src="/exemplos_1_placa_solar.png" alt="Exemplos placa solar" width={500} height={500}></Image>
