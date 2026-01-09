@@ -21,7 +21,7 @@ export default function Home() {
                     <div className="text-center p-2 order-first md:order-last md:mt-16">
                         <h1 className="font-semibold mb-2 text-4xl">Aquecimento Solar</h1>
                         <p className="text-2xl font-light text-gray-400 mb-6 md:max-w-96">Sistemas de aquecimento de água de banho e piscina com painel solar.</p>
-                        <Link href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-white transition-all px-6 py-3 text-white font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
+                        <Link href="https://api.whatsapp.com/send/?phone=5511961672352&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-white transition-all px-6 py-3 text-white font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
                     </div>
                     <div className="p-4 order-last md:order-first">
                         <Image src="/exemplos_5_piscina.png" alt="Exemplos placa solar" width={500} height={500}></Image>
@@ -33,7 +33,7 @@ export default function Home() {
                     <div className="text-center p-2 md:mt-16">
                         <h1 className="font-semibold mb-2 text-4xl">Manutenção e Suporte</h1>
                         <p className="text-2xl font-light text-gray-500 mb-6 md:max-w-96">Serviço técnico para garantir máxima eficiência.</p>
-                        <Link href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-[#e5930d] transition-all px-6 py-3 text-gray-800 font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
+                        <Link href="https://api.whatsapp.com/send/?phone=5511961672352&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-[#e5930d] transition-all px-6 py-3 text-gray-800 font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
                     </div>
                     <div className="p-4">
                         <Image src="/exemplos_3_suporte.png" alt="Exemplos placa solar" width={500} height={500}></Image>
@@ -45,7 +45,7 @@ export default function Home() {
                     <div className="text-center p-2 order-first md:order-last md:mt-16">
                         <h1 className="font-semibold mb-2 text-4xl">Consultoria Energética</h1>
                         <p className="text-2xl font-light text-gray-400 mb-6 md:max-w-96">Avaliação de consumo e viabilidade de uso do aquecimento solar.</p>
-                        <Link href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-white transition-all px-6 py-3 text-white font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
+                        <Link href="https://api.whatsapp.com/send/?phone=5511961672352&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" className="bg-transparent hover:bg-[#e5930d] outline-solid outline-white transition-all px-6 py-3 text-white font-bold rounded-full md:float-right md:mr-4">Saiba Mais</Link>
                     </div>
                     <div className="p-4 order-last md:order-first">
                         <Image src="/exemplos_4_consulta.png" alt="Exemplos placa solar" width={500} height={500}></Image>

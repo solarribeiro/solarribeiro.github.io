@@ -16,7 +16,7 @@ export default function Footer() {
 
         {/* Redes sociais */}
         <div className="flex gap-4 text-xl">
-          <a href="https://api.whatsapp.com/send/?phone=5511982658073&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-green-400">
+          <a href="https://api.whatsapp.com/send/?phone=5511961672352&text=Vim+pelo+website+e+gostaria+de+pedir+um+or%C3%A7amento.&type=phone_number" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="hover:text-green-400">
             <FaWhatsapp />
           </a>
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:text-blue-400">

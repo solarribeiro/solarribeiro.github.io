@@ -1,6 +1,6 @@
 export default function WhatsappIcon() {
     return (
-        <a href="https://wa.me/5511982658073?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
+        <a href="https://wa.me/5511961672352?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
             className="fixed bottom-4 mb-8 right-4 bg-green-500 hover:bg-green-600 text-white flex items-center gap-2 px-4 py-2 rounded-full shadow-lg z-50"
             target="_blank" rel="noopener noreferrer">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 fill-current" viewBox="0 0 24 24">

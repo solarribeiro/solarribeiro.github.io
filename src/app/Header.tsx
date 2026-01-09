@@ -35,7 +35,7 @@ export default function Header() {
                     <Link href="/contato" className="block py-2 md:py-0 hover:text-slate-400">Contato</Link>
                 </nav>
 
-                <Link href="https://wa.me/5511982658073?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
+                <Link href="https://wa.me/5511961672352?text=Vim%20pelo%20website%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
                     className="hidden md:inline-block bg-[#25374f] text-white px-4 py-2 rounded-full hover:bg-[#2e4665]" target="_blank"
                     rel="noopener noreferrer">
                     Pedir um Orçamento
